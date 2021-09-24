@@ -5,3 +5,18 @@ npm install express body-parser --save
 npm install -g nodemon
 
  nodemon server
+
+ node server
+
+ git rm --cached .\node_modules\
+
+ ng g s services/auth
+ npm install --serve cors
+
+ ng g s services/products
+ 
+npm install --save  jsonwebtoken
+
+ ng g guard guards/auth
+
+ ng g s services/token-interceptor
